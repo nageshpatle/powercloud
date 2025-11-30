@@ -1,10 +1,9 @@
-
 import React, { useState, useMemo } from 'react';
-import { Header } from './components/Header';
-import { Schematic } from './components/Schematic';
-import { ControlPanel } from './components/ControlPanel';
-import { WaveformPlot } from './components/WaveformPlot';
-import { SimulationParams, DEFAULT_PARAMS, computeWaveforms, Topology } from './utils/simulationEngine';
+import { Header } from './components/Header.tsx';
+import { Schematic } from './components/Schematic.tsx';
+import { ControlPanel } from './components/ControlPanel.tsx';
+import { WaveformPlot } from './components/WaveformPlot.tsx';
+import { SimulationParams, DEFAULT_PARAMS, computeWaveforms, Topology } from './utils/simulationEngine.ts';
 import { RefreshCw, Zap } from 'lucide-react';
 
 const App: React.FC = () => {

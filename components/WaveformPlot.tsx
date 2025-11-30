@@ -1,6 +1,5 @@
-
 import React, { useRef, useEffect, useState } from 'react';
-import { drawPlot, WaveformSeries, COLORS } from '../utils/simulationEngine';
+import { drawPlot, WaveformSeries, COLORS } from '../utils/simulationEngine.ts';
 
 interface WaveformPlotProps {
   title: string;
