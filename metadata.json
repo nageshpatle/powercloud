@@ -1,0 +1,5 @@
+{
+  "name": "Powercloud React Lab",
+  "description": "Interactive Power Electronics Lab featuring Buck and Boost converter simulations.",
+  "requestFramePermissions": []
+}
